@@ -10,6 +10,7 @@
 * [4.使用Spring Boot工作](ispring-bootwen-dang/4shi-yong-spring-boot-gong-zuo.md)
 * [5.了解Spring Boot的特性](ispring-bootwen-dang/5le-jie-spring-boot-de-te-xing.md)
 * [6.迁移到生产环境](ispring-bootwen-dang/6qian-yi-dao-sheng-chan-huan-jing.md)
+* [7.高阶话题](ispring-bootwen-dang/7gao-jie-hua-ti.md)
 
 ## II. 开始
 
