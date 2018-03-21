@@ -16,10 +16,10 @@
 
 ## II.开始
 
-* [序言](ii-kai-shi/xu-yan.md)
-* [8.Spring Boot介绍](ii-kai-shi/8spring-bootjie-shao.md)
-* [9.系统要求](ii-kai-shi/9xi-tong-yao-qiu.md)
-* [10.安装Spring Boot](ii-kai-shi/10an-zhuang-spring-boot.md)
+* [序言](II-Getting Started/xu-yan.md)
+* [8.Spring Boot介绍](II-Getting Started/8spring-bootjie-shao.md)
+* [9.系统要求](II-Getting Started/9xi-tong-yao-qiu.md)
+* [10.安装Spring Boot](II-Getting Started/10an-zhuang-spring-boot.md)
 
 ## IX. “如何处理”参考
 
