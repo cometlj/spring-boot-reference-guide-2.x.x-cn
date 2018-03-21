@@ -7,6 +7,7 @@
 * [1.关于文档](ispring-bootwen-dang/1guan-yu-wen-dang.md)
 * [2.获取帮助](ispring-bootwen-dang/2huo-qu-bang-zhu.md)
 * [3.第一步](ispring-bootwen-dang/3di-yi-bu.md)
+* [4.使用Spring Boot工作](ispring-bootwen-dang/4shi-yong-spring-boot-gong-zuo.md)
 
 ## II. 开始
 
