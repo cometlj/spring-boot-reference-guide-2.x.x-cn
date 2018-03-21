@@ -2,9 +2,9 @@
 
 Spring Boot参考指南目前可用版本有
 
-* **HTML**
-* **PDF**
-* **EPUB**
+* [**HTML**](https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/html)
+* [**PDF**](https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/pdf/spring-boot-reference.pdf)
+* [**EPUB**](https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/epub/spring-boot-reference.epub)
 
 最新的可用拷贝地址在 [docs.spring.io/spring-boot/docs/current/reference](/docs.spring.io/spring-boot/docs/current/reference)
 
