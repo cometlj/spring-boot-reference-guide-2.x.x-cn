@@ -9,7 +9,7 @@
 * 提供一个完全更快、更易接受上手的Spring项目部署体验
 * Be opinionated out of the box but get out of the way quickly as requirements start to diverge from the defaults.
 
-* 对大量项目（例如内置服务器，安全中心，埋点，健康检查以及外部配置）提供一系列无功能性 的特性。
+* 对大量项目（例如内置服务器，安全中心，服务埋点，健康检查以及外部配置）提供一系列无功能性 的特性。
 
 * 绝对没有代码生成，无需XML配置文件
 
