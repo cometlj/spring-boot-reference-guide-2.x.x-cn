@@ -52,35 +52,35 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 >
 > `spring-boot-starter-parent` 是使用Spring Boot的绝好方式，但不是任何时候都合适。有时候你需要继承不同的父POM文件，或许你不喜欢默认设置。在这些情况下，请查看章节 **the section called “Using Spring Boot without the Parent POM”**
 
-
 ### Gradle安装
+
 Spring Boot兼容Gradle 4。如果你还未安装Gradle，可以查看官网说明 [gradle.org](gradle.org)
 
 Spring Boot的依赖库使用 `org.springframework.boot` 作为groupId. 通常来说，你的项目会声明一个或多个**Starters** 。Spring Boot提供了一个很有用的插件Gradle Plugin，能够简化依赖库声明和创建可执行jar文件的过程。
 
-> **Gradle Wrapper**
-> Gradle Wrapper提供了一种很好的方式来获取包，当你需要编译项目的时候。你只需要提交很简短的脚本和库声明，连同你的代码一起即可构建编译处理。详情见[docs.gradle.org/4.2.1/userguide/gradle_wrapper.html](docs.gradle.org/4.2.1/userguide/gradle_wrapper.html)
+> **Gradle Wrapper**  
+> Gradle Wrapper提供了一种很好的方式来获取包，当你需要编译项目的时候。你只需要提交很简短的脚本和库声明，连同你的代码一起即可构建编译处理。详情见[docs.gradle.org/4.2.1/userguide/gradle\_wrapper.html](docs.gradle.org/4.2.1/userguide/gradle_wrapper.html)
 
 下面的例子展示了一个典型的 `build.gradle`文件：
 
 ```bash
 plugins {
-	id 'org.springframework.boot' version '2.0.0.RELEASE' id 'java'
+    id 'org.springframework.boot' version '2.0.0.RELEASE' id 'java'
 }
 jar {
-	baseName = 'myproject' version = '0.0.1-SNAPSHOT'
+    baseName = 'myproject' version = '0.0.1-SNAPSHOT'
 }
 repositories {
- 	jcenter()
+     jcenter()
 }
 dependencies { 
-	compile("org.springframework.boot:spring-boot-starter-web") 	testCompile("org.springframework.boot:spring-boot-starter-test")
+    compile("org.springframework.boot:spring-boot-starter-web")     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 ```
 
 ## 10.2 Spring Boot CLI安装
 
-Spring Boot CLI(Command Line Interface)是一个命令行工具，通过它你能够很快使用Spring生成原型。该工具允许你运行Groovy脚本，意味着你无需太多的样本文件代码即可拥有一个类Java语法的语言。--Not good
+Spring Boot CLI\(Command Line Interface\)是一个命令行工具，通过它你能够很快使用Spring生成原型。该工具允许你运行Groovy脚本，意味着你无需太多的样本文件代码即可拥有一个类Java语法的语言。--Not good
 
 你不需在Spring Boot中使用CLI，但是它的确是初始生成Spring应用最快捷的方式。
 
@@ -98,7 +98,7 @@ Spring Boot CLI(Command Line Interface)是一个命令行工具，通过它你�
 
 ### 使用SDKMAN安装
 
-SDKMAN!(The Software Development Kit Manager)能够管理不同版本的二进制SDK包，包括Groovy和Spring Boot CLI。通过 [sdkman.io](sdkman.io)即可获取，安装Spring Boot命令如下：
+SDKMAN!\(The Software Development Kit Manager\)能够管理不同版本的二进制SDK包，包括Groovy和Spring Boot CLI。通过 [sdkman.io](sdkman.io)即可获取，安装Spring Boot命令如下：
 
 ```bash
 $ sdk install springboot
@@ -114,7 +114,6 @@ bin/spring-2.0.0.RELEASE/
 $ sdk default springboot dev
 $ spring --version
 Spring CLI v2.0.0.RELEASE
-
 ```
 
 以上的命令安装了一个Spring本地实例，叫做 `dev` 实例。该实例指向了你的目标编译地址，所以每次你重新编译Spring Boot时候，`spring`都会是最新的.
@@ -146,7 +145,7 @@ $ brew install springboot
 
 Homebrew将把spring安装至 `/user/local/bin`目录下
 
-> **注意**
+> **注意**  
 > 如果你没有看到spring程序，你的brew程序可能版本落后了，出现这种情况，请运行 `brew update`并再次尝试。
 
 ### MacPorts安装
@@ -159,7 +158,6 @@ sudo port install spring-boot-cli
 
 ### 命令行自动完成功能
 
-
 Spring Boot CLI脚本包含了BASH和zsh shell终端的命令行自动完成功能。你可以在任意shell终端中`source`脚本（也叫做`spring`），或者将其放置在全局bash完成初始化工作。--Not good。在Debian系统中，全局脚本存放在`/shell-completion/bash`下，该目录下所有的脚本都是可执行脚本。例如，如果你安装过SDKMAN后可手工执行以下命令：
 
 ```bash
@@ -168,7 +166,7 @@ $ spring <HIT TAB HERE>
   grab  help  jar  run  test  version
 ```
 
-> **注意**
+> **注意**  
 > 如果你已经通过Homebrew或MacPorts安装过了Spring Boot CLI,命令行自动完成功能就自动注册在你的shell中了。
 
 ### Spring CLI 样例快速上手
@@ -178,10 +176,10 @@ $ spring <HIT TAB HERE>
 ```java
 @RestController
 class ThisWillActuallyRun {
- 	@RequestMapping("/")
- 	String home() {
-  		"Hello World!"
-	} 
+     @RequestMapping("/")
+     String home() {
+          "Hello World!"
+    } 
 }
 ```
 
@@ -191,7 +189,7 @@ class ThisWillActuallyRun {
 spring run app.groovy
 ```
 
-> **注意**
+> **注意**  
 > 第一次运行该应用程序会比较慢，因为需要下载依赖库。随后的运行就会快很多了。
 
 在你喜欢的浏览器中打开[localhost:8080](localhost:8080)。你应该可以看到以下输出：
@@ -204,4 +202,5 @@ Hello World!
 
 如果你需要从早期的Spring Boot发行版升级，请查阅[“migration guide” on the project wiki](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Migration-Guide),哪里提供了详细的升级说明。也可以查阅[release notes](https://github.com/spring-projects/spring-boot/wiki)来获取每个发行版值得注意的地方和新特性列表。
 
-升级一个已存在的CLI安装包，请使用合适的包管理器命令（例如，`brew update`）或者，如果你手动安装的CLI，请查阅[standard instructions--10.2 锚点](10.2)，记得更新你的 `PATH` 环境变量，删除任何旧的无效引用。
+升级一个已存在的CLI安装包，请使用合适的包管理器命令（例如，`brew update`）或者，如果你手动安装的CLI，请查阅[standard instructions](#102-spring-boot-cli安装)，记得更新你的 `PATH` 环境变量，删除任何旧的无效引用。
+
