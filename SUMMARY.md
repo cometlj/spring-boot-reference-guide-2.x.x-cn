@@ -21,6 +21,7 @@
 * [9.系统要求](II-Getting Started/9xi-tong-yao-qiu.md)
 * [10.安装Spring Boot](II-Getting Started/10an-zhuang-spring-boot.md)
 * [11.开发你的第一个Spring Boot应用](II-Getting Started/11kai-fa-ni-de-di-yi-ge-spring-boot-ying-yong.md)
+* [12.延伸阅读](II-Getting Started/12yan-shen-yue-du.md)
 
 ## IX. “如何处理”参考
 
