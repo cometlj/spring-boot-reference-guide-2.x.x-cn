@@ -40,7 +40,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	<artifactId>myproject</artifactId> 	
 	<version>0.0.1-SNAPSHOT</version>
 	<parent> 
-	  <groupId>org.springframework.boot</groupId> 		       <artifactId>spring-boot-starter-parent</artifactId> 		  <version>2.0.0.RELEASE</version>
+	  <groupId>org.springframework.boot</groupId> 
+	  <artifactId>spring-boot-starter-parent</artifactId> 		  
+	  <version>2.0.0.RELEASE</version>
 	</parent>
 	 <!-- Additional lines to be added here... -->
 </project>
@@ -50,7 +52,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 
 > **小贴士**
 > 
-> 此时，你就可以到向IDE中导入该项目了（大多数Java IDE都包含对Maven的内置支持）为简化操作，我们在例子中仍然使用一个普通的文本编辑器。
+> 此时，你就可以到向IDE中导入该项目了（大多数Java IDE都包含了对Maven的内置支持）为简化操作，我们在例子中仍然使用一个普通的文本编辑器。
 
 ### 11.2 添加Classpath依赖
 
@@ -69,7 +71,8 @@ Spring Boot提供了很多“Starters”启动器以便你添加jar包到你的�
 <dependencies>
  <dependency>
 	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-web</artifactId> </dependency>
+		<artifactId>spring-boot-starter-web</artifactId> 
+	</dependency>
 </dependencies>
 ```
 
@@ -161,8 +164,10 @@ Hello World!
 ```xml
 <build>
  <plugins>
-	<plugin> <groupId>org.springframework.boot</groupId> 	<artifactId>spring-boot-maven-plugin</artifactId>
-  </plugin>
+	<plugin> 
+		<groupId>org.springframework.boot</groupId> 			
+		<artifactId>spring-boot-maven-plugin</artifactId>
+  	</plugin>
  </plugins>
 </build>
 ```
