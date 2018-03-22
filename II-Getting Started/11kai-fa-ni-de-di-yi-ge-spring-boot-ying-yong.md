@@ -94,7 +94,7 @@ import org.springframework.boot.autoconfigure.*; import org.springframework.web.
 
 #### @RestController and @RequestMapping注解
 
-`Example`类中的第一个注解是@RestController.这被叫做标准化注解。它给编码者以提示该端代码是Spring相关的，并且该类充当的一个特定角色。这样，我们的类就变成一个Web @Controller 了，Spring会在处理接入web请求时候调用该类。
+`Example`类中的第一个注解是@RestController。这被叫做标准化注解。它给编码者以提示该端代码是Spring相关的，并且该类充当的一个特定角色。这样，我们的类就变成一个Web @Controller 了，Spring会在处理接入web请求时候调用该类。
 
 @RequestMapping注解提供了一个“路由”信息。它告诉Spring任何以 / 路径的HTTP请求，都会被映射到`home`方法。@RestController注解告诉Spring直接渲染结果字符串给调用者。
 
