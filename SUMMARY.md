@@ -3,7 +3,6 @@
 ## 序言
 
 * [写在开始](README.md)
-* 24. 外部化配置
 
 ## I.Spring Boot文档
 
@@ -43,5 +42,30 @@
 
 ## IV. Spring Boot特性
 
-* [23.SpringApplication](iv-spring-bootte-xing/23springapplication.md)
+* [23.SpringApplication](IV-Spring Boot Features/23. SpringApplication.md)
+* [24.外部化配置](IV-Spring Boot Features/24. Externalized Configuration.md)
+* [25.Profiles](IV-Spring Boot Features/25. Profiles.md)
+* [26.日志](IV-Spring Boot Features/26. Logging.md)
+* [27.开发Web应用](IV-Spring Boot Features/27. Developing Web Applications.md)
+* [28.安全](IV-Spring Boot Features/28. Security.md)
+* [29.使用SQL数据库](IV-Spring Boot Features/29. Working With SQL Databases.md)
+* [30.使用NoSQL技术](IV-Spring Boot Features/30. Working with NoSQL Technologies.md)
+* [31.缓存](IV-Spring Boot Features/31. Caching.md)
+* [32.消息](IV-Spring Boot Features/32. Messaging.md)
+* [33.使用RestTemplate调用REST服务](IV-Spring Boot Features/33. Calling REST Services with RestTemplate.md)
+* [34.使用WebClient调用REST服务](IV-Spring Boot Features/34. Calling REST Services with WebClient.md)
+* [35.校验器](IV-Spring Boot Features/35. Validation.md)
+* [36.发送邮件](IV-Spring Boot Features/36. Sending Email.md)
+* [37.JTA分布式事务](IV-Spring Boot Features/37. Distributed Transactions with JTA.md)
+* [38.Hazelcast](IV-Spring Boot Features/38. HazeiCast.md)
+* [39.Quartz调度器](IV-Spring Boot Features/39. Quartz Scheduler.md)
+* [40.集成Spring](IV-Spring Boot Features/40. Spring Integration.md)
+* [41.Spring会话](IV-Spring Boot Features/41. Spring Session.md)
+* [42.通过JMX提供的监控及管理后台](IV-Spring Boot Features/42. Monitoring and Management over JMX.md)
+* [43.测试](IV-Spring Boot Features/43. Testing.md)
+* [44.WebSockets](IV-Spring Boot Features/44. WebSockets.md)
+* [45.Web Services](IV-Spring Boot Features/45. Web Services.md)
+* [46.创建你自己的自动配置](IV-Spring Boot Features/46. Creating Your Own Auto-configuration.md)
+* [47.Kotlin支持](IV-Spring Boot Features/47. Kotlin support.md)
+* [48.延伸阅读](IV-Spring Boot Features/48. What to Read Next.md)
 
