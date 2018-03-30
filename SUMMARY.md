@@ -3,6 +3,7 @@
 ## 序言
 
 * [写在开始](README.md)
+* 24. 外部化配置
 
 ## I.Spring Boot文档
 
@@ -39,4 +40,8 @@
 * [20.开发者工具](III-Using Spring Boot/20. Developer Tools.md)
 * [21.打包项目到生产环境](III-Using Spring Boot/21. Packaging Your Application for Production.md)
 * [22.延伸阅读](III-Using Spring Boot/22. What to Read Next.md)
+
+## IV. Spring Boot特性
+
+* [23.SpringApplication](iv-spring-bootte-xing/23springapplication.md)
 
